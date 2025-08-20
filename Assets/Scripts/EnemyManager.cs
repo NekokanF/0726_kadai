@@ -2,15 +2,19 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float amplitude = 0.5f; // ã‰º‚ÌU‚ê•
+    public float speed = 1f;   // ã‰º‚Ì‘¬‚³
+
+    private Vector3 startPos;
+
     void Start()
     {
-        
+        startPos = transform.position; // ‰ŠúˆÊ’u‚ğ‹L˜^
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        float yOffset = Mathf.Sin(Time.time * speed) * amplitude;
+        transform.position = startPos + new Vector3(0, yOffset, 0);
     }
 }

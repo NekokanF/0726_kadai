@@ -45,10 +45,5 @@ public class PlayerManager : MonoBehaviour
         {
             transform.eulerAngles += new Vector3(0, rotate_speed * Time.deltaTime, 0);
         }
-
-        if (Input.GetKey(KeyCode.Z)) //ƒƒbƒNƒIƒ“
-        {
-
-        }
     }
 }
