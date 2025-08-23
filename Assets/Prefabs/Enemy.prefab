@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eddd048729ab9543aa3a4035f2ba9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 1
+  amplitude: 2
   speed: 2
 --- !u!114 &-7564290911025057729
 MonoBehaviour:
@@ -116,3 +116,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shakeDuration: 0.7
   shakeMagnitude: 0.4
+  shakeCheck: 0
