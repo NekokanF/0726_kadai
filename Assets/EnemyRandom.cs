@@ -12,6 +12,7 @@ public class EnemyRandom : MonoBehaviour
 
     void Start()
     {
+        //ŠÖ”ŒÄ‚Ño‚µ
         SpawnEnemies();
     }
 
